@@ -35,9 +35,9 @@ task clean(type: Delete) {
 }
 
 ext {
-    compileSdkVersion = 32
-    buildToolsVersion = '30.0.2'
-    targetSdkVersion = 32
+    compileSdkVersion = 35
+    buildToolsVersion = '34.0.0'
+    targetSdkVersion = 35
     minSdkVersion = 26
 
     applicationId = "com.bludos.caide"
