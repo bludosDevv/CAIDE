@@ -31,7 +31,7 @@ public class DependencyResolverTest {
 
         DependencyResolver resolver = new DependencyResolver(repository);
 
-        Pom materialPom = repository.getPom("com.google.android.material:material:1.4.0");
+        Pom materialPom = repository.getPom("com.google.android.material:material:1.14.0-alpha09");
         Pom appcompatPom = repository.getPom("androidx.appcompat:appcompat:1.3.0");
         assert materialPom != null;
         assert appcompatPom != null;

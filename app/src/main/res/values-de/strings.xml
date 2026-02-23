@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CodeAssist</string>
+    <string name="app_name">CAIDE</string>
     <string name="hello_world">Hallo Welt!</string>
     <item name="paste" type="string">Einfügen</item>
     <item name="copy" type="string">Kopieren</item>

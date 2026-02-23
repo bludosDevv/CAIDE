@@ -40,7 +40,7 @@ ext {
     targetSdkVersion = 32
     minSdkVersion = 26
 
-    applicationId = "com.tyron.code"
+    applicationId = "com.bludos.caide"
     versionCode = 21
     versionName = "0.3.0 ALPHA"
 }

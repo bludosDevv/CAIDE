@@ -28,7 +28,7 @@ public class RepositoryManagerTest {
         repository.setCacheDirectory(cacheDir);
         repository.initialize();
 
-        Pom pom = repository.getPom("com.google.android.material:material:1.4.0");
+        Pom pom = repository.getPom("com.google.android.material:material:1.14.0-alpha09");
         assert pom != null;
         // get all the dependencies of this pom
         recurse(pom);
